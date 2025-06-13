@@ -1,5 +1,5 @@
 html { scroll-behavior: smooth; }
 body { font-family: Arial, sans-serif; }
 h1, h2 { font-weight: 700; }
-.card { border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+.card { border-radius: 8px; box-shadow: 0 2px 5px rgba(31,56,94,1); }
 .badge { font-size: 1rem; padding: .5em 1em; }
