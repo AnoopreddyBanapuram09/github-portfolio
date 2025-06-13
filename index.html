@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div>
+        <h1>Your Name</h1>
+        <p>Data Engineer | Python | GCP | SQL</p>
+      </div>
+      <button id="theme-toggle">🌙</button>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a data engineer with 5+ years of experience working with cloud platforms like GCP and AWS, building scalable data pipelines and analytical solutions.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+      <li>Python</li>
+      <li>SQL</li>
+      <li>BigQuery</li>
+      <li>Apache Airflow</li>
+      <li>Tableau / Power BI</li>
+      <li>Cloud Composer</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Fraud Detection Pipeline (Vanguard)</h3>
+      <p>Developed a data pipeline using GCP to detect anomalous transactions using BigQuery, Dataflow, and Cloud Composer.</p>
+    </div>
+    <div class="project">
+      <h3>Clinical Trial Analytics (BMS)</h3>
+      <p>Integrated clinical data from multiple trials using AWS Glue, S3, and Athena for downstream analytics and visualization.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+    <p><a href="https://github.com/yourgithub" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleBtn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>
