@@ -58,6 +58,10 @@ h2 {
   color: #1f2937;
 }
 
+p {
+  text-align: justify;
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
