@@ -58,6 +58,11 @@ h2 {
   color: #1f2937;
 }
 
+h2 {
+  color: #1f2937;
+  style="text-decoration: underline;
+}
+
 p {
   text-align: justify;
 }
